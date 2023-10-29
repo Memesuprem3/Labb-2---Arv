@@ -15,7 +15,7 @@ namespace Labb_2___Arv
         public string ÖgonFärg { get; set; }
         public double Vikt { get; set; }
         public string Art { get; set; }
-        public string Egenskap { get; set; }
+        
 
         public Djur(string namn, int ålder, string färg, double vikt, string art, string egenskap)
         {
@@ -24,7 +24,7 @@ namespace Labb_2___Arv
             Färg = färg;
             Vikt = vikt;
             Art = art;
-            Egenskap = egenskap;
+            
         }
         public void Sträcka()
         {
