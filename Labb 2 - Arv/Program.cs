@@ -13,7 +13,7 @@ namespace Labb_2___Arv
             LitenTax Helge = new LitenTax("Helge", 9, "Grå", 5.9, "Dvärg Tax", "Korta ben", 4, 2);
 
 
-            Console.WriteLine($"{tax.Namn} är en {tax.Art}, hans päls är {tax.Färg}, han är också {tax.Ålder} gammal och väger {tax.Vikt} kg, {tax.Egenskap}");
+            Console.WriteLine($"{tax.Namn} är en {tax.Art}, hans päls är {tax.Färg}, han är också {tax.Ålder} år gammal och väger {tax.Vikt} kg, {tax.Egenskap}");
             tax.MakeSound();
             tax.Sträcka();
             tax.Skälla();
@@ -21,14 +21,14 @@ namespace Labb_2___Arv
             Console.WriteLine(" ");
 
 
-            Console.WriteLine($"{Fransk.Namn} är en {Fransk.Art}, hennes päls är {Fransk.Färg}, hon är också {Fransk.Ålder} gammal och väger {Fransk.Vikt} kg, {Fransk.Egenskap}");
+            Console.WriteLine($"{Fransk.Namn} är en {Fransk.Art}, hennes päls är {Fransk.Färg}, hon är också {Fransk.Ålder} år gammal och väger {Fransk.Vikt} kg, {Fransk.Egenskap}");
             Fransk.MakeSound();
             Fransk.Snarka();
             
             Console.WriteLine(" ");
 
 
-            Console.WriteLine($"{Chi.Namn} är en {Chi.Art}, hans päls är {Chi.Färg}, han är också {Chi.Ålder} gammal och väger {Chi.Vikt} kg och kan {Chi.Egenskap}");
+            Console.WriteLine($"{Chi.Namn} är en {Chi.Art}, hans päls är {Chi.Färg}, han är också {Chi.Ålder} år gammal och väger {Chi.Vikt} kg och {Chi.Egenskap}");
             Chi.MakeSound();
             Chi.Äta();
             Chi.Skutta();
@@ -36,14 +36,14 @@ namespace Labb_2___Arv
             Console.WriteLine(" ");
 
 
-            Console.WriteLine($"{Nippe.Namn} är en {Nippe.Art}, hans päls är {Nippe.Färg}, han är också {Nippe.Ålder} gammal och väger {Nippe.Vikt} kg och kan {Nippe.Egenskap}");
+            Console.WriteLine($"{Nippe.Namn} är en {Nippe.Art}, hans päls är {Nippe.Färg}, han är också {Nippe.Ålder} år gammal och väger {Nippe.Vikt} kg och {Nippe.Egenskap}");
             Nippe.MakeSound();
             Nippe.JagaByten();
 
             Console.WriteLine(" ");
 
            
-            Console.WriteLine($"{Helge.Namn} är en {Helge.Art}, hans päls är {Helge.Färg}, han är också {Helge.Ålder} gammal och väger {Helge.Vikt} kg och kan {Helge.Egenskap}");
+            Console.WriteLine($"{Helge.Namn} är en {Helge.Art}, hans päls är {Helge.Färg}, han är också {Helge.Ålder} år gammal och väger {Helge.Vikt} kg, {Helge.Egenskap}");
             Helge.MakeSound();
             Helge.Grävahål();
             
